@@ -21,6 +21,15 @@ height: 100%;
   display: flex;
 }
 
+/* Resume Page css */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+
+}
+
 /* contact page css */
 
 .contact-body {
