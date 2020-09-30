@@ -74,6 +74,12 @@ height: 100%;
 
 }
 
+.contact-form hr {
+  font-family: 'Anton', sans-serif;
+}
+
+
+
 .avatar-img {
 height: 250px;
 margin-top: 5em;
