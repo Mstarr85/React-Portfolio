@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import Avatar from '/Users/matthew/Desktop/React-Portfolio/react-portfolio/src/myAvatar.png';
 
+/* form.js */
+import Form from './form';
+
+
+
 
 
 
@@ -47,6 +52,26 @@ class Contact extends Component {
                              </ListItem>
                         </List>
                         </div>
+
+
+                            
+                            
+                            
+                            {/* form.js */}
+
+                            <div className='form-grid'>
+                                <Grid>
+                                    <Cell style={{ padding:'0px', margin:'0px'}}col={12} >
+                                <Form />
+
+                                </Cell >
+                                </Grid>
+                            </div>
+
+
+
+
+
 
 
 
