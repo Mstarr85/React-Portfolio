@@ -20,7 +20,7 @@ class Contact extends Component {
                        <img
                        src={Avatar}
                        alt="avatar"
-                       style={{height: '250px'}}
+                       style={{height: '250px', marginTop: '5em', borderRadius: '50%'}}
                        />
                        <p style={{ width: '75', margin: 'auto', paddingTop: '1em'}}> </p>
                    </Cell>
@@ -33,21 +33,23 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (704) 443-1053
+                                    <a style={{color: 'black',textDecoration: 'none'}} href="tel:+7044431053">(704) 443-1053</a>
+                                 
                                     </ListItemContent>
                              </ListItem>
 
                              <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>
-                                    buylowsellhigh@me.com
+                                    <a  style={{color: 'black',textDecoration: 'none'}} href="mailto:buylowsellhigh@me.com">buylowsellhigh@me.com</a>
                                     </ListItemContent>
                              </ListItem>
 
                              <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
-                                    <i className="fa fa-skype" aria-hidden="true"/>
-                                   MySkypeID
+                                <a  style={{color: 'black',textDecoration: 'none'}} href="https://www.linkedin.com/in/matthew-starr-a9b28b126/" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true" />LinkedIn Profile
+                            </a>
                                     </ListItemContent>
                              </ListItem>
                         </List>

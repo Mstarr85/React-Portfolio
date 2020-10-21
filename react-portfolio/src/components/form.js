@@ -92,7 +92,7 @@ resetForm=()=>{
                       <input type="text" 
                       name="name"
                       className="name" 
-                      placeholder="your name..."
+                      placeholder="John"
                       value={this.state.name}
                       onChange={this.handleName}/>
                     </div>
@@ -104,7 +104,7 @@ resetForm=()=>{
                       <input type="text" 
                       name="lastname"
                       className="lastname" 
-                      placeholder="your last name..."
+                      placeholder="Doe"
                       value={this.state.lastname}
                       onChange={this.handleLastname}/>
                     </div>
@@ -116,7 +116,7 @@ resetForm=()=>{
                       <input type="text" 
                       name="email"
                       className="name" 
-                      placeholder="your email..."
+                      placeholder="example@domain.com"
                       value={this.state.email}
                       onChange={this.handleEmail}
                       required
@@ -130,7 +130,7 @@ resetForm=()=>{
                         <textarea 
                         name="message" id=""
                         cols="30" rows="5"
-                        placeholder="your message..."
+                        placeholder="I would really like to hire you for our next project!"
                         value={this.state.message}
                         onChange={this.handleMessage}>
                         </textarea>
