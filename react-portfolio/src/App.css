@@ -146,7 +146,12 @@ border-radius: 50%;
   padding: 8px;
 }
 
- 
+
+ .skill-icons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 15px;
+ }
 
 
 
@@ -270,5 +275,10 @@ border-radius: 50%;
 /* End of Form.js styling */
 
 
-
+/* messing around with responsiveness */
+@media screen and (max-height: 1600px){
+  .contact-body{
+    height: 80%;
+  
+  }}
 

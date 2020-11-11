@@ -5,6 +5,8 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
+
+
 class Resume extends Component {
     render() {
         return(
@@ -19,16 +21,16 @@ class Resume extends Component {
                         </div>
 
                         <h2 style={{paddingTop: '2em'}}>Matthew Starr</h2>
-                        <h4>Programmer</h4>
+                        <h4>Full-Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p>Personable and energetic Developer with a background in sales and customer service. Able to successfully collaborate and work alone or on a diverse team while solving problems in high-stress environments. A very communicative and driven individual who enjoys connecting with co-workers and clients. Passionate about building applications that assist everyday people to make their lives easier. Looking to bring my attention to detail and technical skills to a company to grow with and add value to their current project.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <h5>Address</h5>
-                        <p>1 Hacker Way Menlo Park, 94025</p>
+                        <h5>Location</h5>
+                        <p>Charlotte, NC </p>
                         <h5>Email</h5>
-                        <p>someone@example.com</p>
+                        <p>buylowsellhigh@me.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>www.linkedin.com/in/matthew-starr-a9b28b126/</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
                     </Cell>
@@ -36,57 +38,49 @@ class Resume extends Component {
                         <h2>Education</h2>
 
                         <Education
-                            startYear={2002}
-                            endYear={2006}
-                            schoolName="My University"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                            startYear={2019}
+                            endYear={2020}
+                            schoolName="University of North Carolina, Charlotte"
+                            schoolDescription="Full-Stack Web Development Coding Boot Camp offering front-end and back-end technology knowledge through a dynamic full-stack coding program curriculum, including HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more."
                             />
 
-<Education
-                            startYear={2007}
-                            endYear={2009}
-                            schoolName="My Second University"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                            />
-                            <hr style={{borderTop: '3px solid #e22947'}} />
 
                             <h2>Experience</h2>
 
                             <Experience
-                            startYear={2009}
-                            endYear={2012}
-                            jobName="First Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"/>
+                            startYear={2020}
+                            endYear={"Present"}
+                            jobName="Freelance Web Developer"
+                            jobDescription="Design, implement and deploy practical user applications upon customer request. Application analysis and design research on how to integrate features that meet the user requirements.
+                            Analyze user needs and provide recommendations.
+                            Create a solution for the task at hand.
+                            Ensure that solutions are in line with the user's expectations using appropriate technologies."/>
 
-<Experience
-                            startYear={2012}
-                            endYear={2016}
-                            jobName="Second Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"/>
-                            <hr style={{borderTop: '3px solid #e22947'}} />
-                            <h2>Skills</h2>
-                            <Skills
-                            skill="javascript"
-                            progress={100}
-                            />
 
-                            <Skills
-                            skill="HTML/CSS"
-                            progress={90}
-                            />
+                            <h2>Technical Skills</h2>
 
-                            <Skills
-                            skill="NodeJS"
-                            progress={75}
-                            />
+                            <Skills/>
 
-                            <Skills
-                            skill="React"
-                            progress={50}
-                            />
- 
+                            
+
+                       
+
 
                     
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+                           
                     </Cell>
                 </Grid>
             </div>
