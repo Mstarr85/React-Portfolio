@@ -38,7 +38,7 @@ class Projects extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </CardText>
                 <CardActions border>
-                    <Button colored>Github</Button>
+                    <Button colored>Github</Button >
                     <Button colored>CodePen</Button>
                     <Button colored>LiveDemo</Button>
                 </CardActions>
@@ -69,23 +69,172 @@ class Projects extends Component {
                 </div>
                 
             )
+
+
+          /* Nodejs projects section */  
             } else if(this.state.activeTab === 1){
                 return (
-                    <div><h1>This is NodeJS</h1></div>
+                    
+
+
+                    <div className="projects-grid">
+
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                       <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79055223-5462a900-7c19-11ea-8c86-c6e0d17c7646.png) center / cover'}} >Note Taker</CardTitle>
+                       <CardText>
+                       A simple note taking app that user can add, save and delete notes using Nodejs and SQL.
+                       </CardText>
+                       <CardActions border>
+                           <Button   colored href="https://github.com/Mstarr85/Note_Taker" rel="noopener noreferrer" target="_blank">Github</Button>
+                           <Button colored
+                           
+                           
+                           href="https://mstarr85-note-taker.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                                
+                           
+                           
+                           Deployed</Button>
+                           <Button colored>LiveDemo</Button>
+                       </CardActions>
+                       <CardMenu style={{color: '#fff'}}>
+                           <IconButton name="share" />
+                       </CardMenu>
+    
+                   </Card>
+    
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #2</CardTitle>
+                    <CardText>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>Github</Button>
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+    
+                </Card>
+    
+                 {/* Project 3 */}
+                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #3</CardTitle>
+                 <CardText>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </CardText>
+                 <CardActions border>
+                     <Button colored>Github</Button>
+                     <Button colored>CodePen</Button>
+                     <Button colored>LiveDemo</Button>
+                 </CardActions>
+                 <CardMenu style={{color: '#fff'}}>
+                     <IconButton name="share" />
+                 </CardMenu>
+    
+             </Card>
+             </div>
+
+/* End of Nodejs projecst section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 )
             } else if(this.state.activeTab === 2) {
                return (
                    <div><h1>This is MongoDB</h1></div>
                ) 
+
+
+
+               /* Beginning of Javascript projects */
             } else if(this.state.activeTab === 3) {
                 return (
-                    <div><h1>This is Javascript</h1></div>
+                    <div className="projects-grid">
+
+                    {/* Random Password Generator */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                       <CardTitle style={{color: '#fff', height: '174px', background: 'url(https://user-images.githubusercontent.com/53281244/75977263-ffa97100-5ea9-11ea-9025-dd136e7a9a98.png) center / cover'}} ></CardTitle>
+                       <CardText style={{padding: '2px', textAlign: 'center'}}>
+                       <h6>Random Password Generator</h6>User can generate a random password so that their sensitive information can stay safe.
+                       </CardText>
+                       <CardActions border>
+                           <Button colored href='https://github.com/Mstarr85/randomPasswordGenerator' rel="noopener noreferrer" target="_blank">Github</Button>
+                           <Button colored href='https://mstarr85.github.io/randomPasswordGenerator/' rel="noopener noreferrer" target="_blank">Deployed</Button>
+                           <Button colored>LiveDemo</Button>
+                       </CardActions>
+                       <CardMenu style={{color: '#fff'}}>
+                           <IconButton name="share" />
+                       </CardMenu>
+    
+                   </Card>
+    
+                    {/* Quiz */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79232092-12ae4a00-7e35-11ea-8a46-b5fc14aebf50.png) center / cover'}} ></CardTitle>
+                    <CardText>
+                    <h6>Quiz</h6>This was created to showcase knowledge of building a timed multiple choice quiz using Javascript.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href='https://github.com/Mstarr85/Quiz' rel="noopener noreferrer" target="_blank">Github</Button >
+                        <Button colored href='https://mstarr85.github.io/Quiz/' rel="noopener noreferrer" target="_blank">Deployed</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+    
+                </Card>
+    
+                 {/* Burger */}
+                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79225722-28b70d00-7e2b-11ea-8a7d-795201b9fe82.png) center / cover'}} ></CardTitle>
+                 <CardText>
+                 <h6 style={{ fontWeight: 'bold'}}>Burger</h6>A restaurant app that lets user input the names of burgers they'd like to eat.
+                 </CardText>
+                 <CardActions border>
+                     <Button colored href='https://github.com/Mstarr85/burger' rel="noopener noreferrer" target="_blank">Github</Button>
+                     <Button colored href='https://frozen-brook-07158.herokuapp.com/' rel="noopener noreferrer" target="_blank">Deployed</Button>
+                     <Button colored>LiveDemo</Button>
+                 </CardActions>
+                 <CardMenu style={{color: '#fff'}}>
+                     <IconButton name="share" />
+                 </CardMenu>
+    
+             </Card>
+    
+             
+                    </div>
                 )
             }
 
     }
 
-    
+    /* End of Javascript projects */
     
 
     render() {
