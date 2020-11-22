@@ -14,15 +14,17 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
 
+
+            {/* React projects section */}
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                   <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #1</CardTitle>
+                   <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/77220180-f9ef9480-6b13-11ea-9854-acc5e1e99fbe.png) center / cover'}} >React Project #1</CardTitle>
                    <CardText>
                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                    </CardText>
                    <CardActions border>
-                       <Button colored>Github</Button>
-                       <Button colored>CodePen</Button>
+                       <Button colored href='https://github.com/Mstarr85/employeeDirectory' rel="noopener noreferrer" target="_blank">Github</Button>
+                       <Button colored href='https://tranquil-headland-02955.herokuapp.com/' rel="noopener noreferrer" target="_blank">Deployed</Button>
                        <Button colored>LiveDemo</Button>
                    </CardActions>
                    <CardMenu style={{color: '#fff'}}>
@@ -87,14 +89,7 @@ class Projects extends Component {
                        </CardText>
                        <CardActions border>
                            <Button   colored href="https://github.com/Mstarr85/Note_Taker" rel="noopener noreferrer" target="_blank">Github</Button>
-                           <Button colored
-                           
-                           
-                           href="https://mstarr85-note-taker.herokuapp.com/" rel="noopener noreferrer" target="_blank">
-                                
-                           
-                           
-                           Deployed</Button>
+                           <Button colored href="https://mstarr85-note-taker.herokuapp.com/" rel="noopener noreferrer" target="_blank">Deployed</Button>
                            <Button colored>LiveDemo</Button>
                        </CardActions>
                        <CardMenu style={{color: '#fff'}}>
@@ -105,13 +100,12 @@ class Projects extends Component {
     
                     {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #2</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79497193-46d06900-7ff5-11ea-82c2-47b1ea5dd015.png) center / cover'}} >React Project #2</CardTitle>
                     <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
+                        <Button colored href='https://github.com/Mstarr85/Employee_Tracker' rel="noopener noreferrer" target="_blank">Github</Button>
                         <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
@@ -166,8 +160,67 @@ class Projects extends Component {
                 )
             } else if(this.state.activeTab === 2) {
                return (
-                   <div><h1>This is MongoDB</h1></div>
-               ) 
+                <div className="projects-grid">
+
+
+                {/* MongoDB projects section */}
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                       <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/75485119-1fa3d680-5978-11ea-8044-8370c7184f2f.png) center / cover'}} ></CardTitle>
+                       <CardText>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       </CardText>
+                       <CardActions border>
+                           <Button colored href='https://github.com/Mstarr85/Workout-Tracker' rel="noopener noreferrer" target="_blank">Github</Button>
+                           <Button colored href='https://ancient-atoll-65262.herokuapp.com/?id=5e58198cc687c90017d1788e' rel="noopener noreferrer" target="_blank">Deployed</Button>
+                           <Button colored>LiveDemo</Button>
+                       </CardActions>
+                       <CardMenu style={{color: '#fff'}}>
+                           <IconButton name="share" />
+                       </CardMenu>
+    
+                   </Card>
+    
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #2</CardTitle>
+                    <CardText>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>Github</Button >
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+    
+                </Card>
+    
+                 {/* Project 3 */}
+                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #3</CardTitle>
+                 <CardText>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </CardText>
+                 <CardActions border>
+                     <Button colored>Github</Button>
+                     <Button colored>CodePen</Button>
+                     <Button colored>LiveDemo</Button>
+                 </CardActions>
+                 <CardMenu style={{color: '#fff'}}>
+                     <IconButton name="share" />
+                 </CardMenu>
+    
+             </Card>
+    
+             
+                    </div>
+                    
+                )
+    
+               
 
 
 
