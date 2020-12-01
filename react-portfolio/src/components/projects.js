@@ -16,11 +16,11 @@ class Projects extends Component {
 
 
             {/* React projects section */}
-                {/* Project 1 */}
+                {/* Employee Directory */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/77220180-f9ef9480-6b13-11ea-9854-acc5e1e99fbe.png) center / cover'}} >React Project #1</CardTitle>
                    <CardText>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   <h6>Employee Directory</h6><p>App that lets the user look up employee by name quickly by typing name in search box making it easier for employers to sort through employees</p>
                    </CardText>
                    <CardActions border>
                        <Button colored href='https://github.com/Mstarr85/employeeDirectory' rel="noopener noreferrer" target="_blank">Github</Button>
@@ -81,11 +81,11 @@ class Projects extends Component {
 
                     <div className="projects-grid">
 
-                    {/* Project 1 */}
+                    {/* Note Taker */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79055223-5462a900-7c19-11ea-8c86-c6e0d17c7646.png) center / cover'}} >Note Taker</CardTitle>
                        <CardText>
-                       A simple note taking app that user can add, save and delete notes using Nodejs and SQL.
+                       <h6>Note Taker</h6><p>A simple note taking app that user can add, save and delete notes using Nodejs and SQL.</p>
                        </CardText>
                        <CardActions border>
                            <Button   colored href="https://github.com/Mstarr85/Note_Taker" rel="noopener noreferrer" target="_blank">Github</Button>
@@ -98,11 +98,11 @@ class Projects extends Component {
     
                    </Card>
     
-                    {/* Project 2 */}
+                    {/* Employee Tracker */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79497193-46d06900-7ff5-11ea-82c2-47b1ea5dd015.png) center / cover'}} >React Project #2</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79497193-46d06900-7ff5-11ea-82c2-47b1ea5dd015.png) center / cover'}} >Employee Tracker</CardTitle>
                     <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <p>A command-line application built to allow user to keep track of employees, add or update their role, department, salary or user id.</p>
                     </CardText>
                     <CardActions border>
                         <Button colored href='https://github.com/Mstarr85/Employee_Tracker' rel="noopener noreferrer" target="_blank">Github</Button>
@@ -168,7 +168,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/75485119-1fa3d680-5978-11ea-8044-8370c7184f2f.png) center / cover'}} ></CardTitle>
                        <CardText>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       <h6>Workout-Tracker</h6><p>A Workout Tracker app that helps user reach their fitness goals quicker when they track their workout progress.</p>
                        </CardText>
                        <CardActions border>
                            <Button colored href='https://github.com/Mstarr85/Workout-Tracker' rel="noopener noreferrer" target="_blank">Github</Button>
