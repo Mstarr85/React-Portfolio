@@ -18,9 +18,9 @@ class Projects extends Component {
             {/* React projects section */}
                 {/* Employee Directory */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                   <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/77220180-f9ef9480-6b13-11ea-9854-acc5e1e99fbe.png) center / cover'}} >React Project #1</CardTitle>
+                   <CardTitle style={{color: '#fff', height: '195px', background: 'url(https://user-images.githubusercontent.com/53281244/77220180-f9ef9480-6b13-11ea-9854-acc5e1e99fbe.png) center / cover'}} >React Project #1</CardTitle>
                    <CardText>
-                   <h6>Employee Directory</h6><p>App that lets the user look up employee by name quickly by typing name in search box making it easier for employers to sort through employees</p>
+                   <h6 style={{margin: '0', fontWeight: 'bolder'}}>Employee Directory</h6><p style={{margin: '0'}}>App that lets the user look up employee by name quickly by typing name in search box making it easier for employers to sort through employees</p>
                    </CardText>
                    <CardActions border>
                        <Button colored href='https://github.com/Mstarr85/employeeDirectory' rel="noopener noreferrer" target="_blank">Github</Button>
@@ -47,9 +47,9 @@ class Projects extends Component {
 
                     {/* Note Taker */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                       <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79055223-5462a900-7c19-11ea-8c86-c6e0d17c7646.png) center / cover'}} >Note Taker</CardTitle>
+                       <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://user-images.githubusercontent.com/53281244/79055223-5462a900-7c19-11ea-8c86-c6e0d17c7646.png) center / cover'}} >Note Taker</CardTitle>
                        <CardText>
-                       <h6>Note Taker</h6><p>A simple note taking app that user can add, save and delete notes using Nodejs and SQL.</p>
+                       <h6 style={{marginTop: '0px', marginBottom: '0px', paddingTop: '0px', paddingBottom: '0px', fontWeight: 'bolder'}}>Note Taker</h6><p style={{marginBottom: '0'}}>A simple note taking app that user can add, save and delete notes using Nodejs and SQL.</p>
                        </CardText>
                        <CardActions border>
                            <Button   colored href="https://github.com/Mstarr85/Note_Taker" rel="noopener noreferrer" target="_blank">Github</Button>
@@ -64,9 +64,9 @@ class Projects extends Component {
     
                     {/* Employee Tracker */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79497193-46d06900-7ff5-11ea-82c2-47b1ea5dd015.png) center / cover'}} >Employee Tracker</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://user-images.githubusercontent.com/53281244/79497193-46d06900-7ff5-11ea-82c2-47b1ea5dd015.png) center / cover'}} ></CardTitle>
                     <CardText>
-                    <p>A command-line application built to allow user to keep track of employees, add or update their role, department, salary or user id.</p>
+                    <p style={{margin: '0px',padding: '0px'}}><h6 style={{margin: '0px'}}>Employee Tracker</h6>A command-line application built to allow user to keep track of employees, add or update their role, department, salary or user id.</p>
                     </CardText>
                     <CardActions border>
                         <Button colored href='https://github.com/Mstarr85/Employee_Tracker' rel="noopener noreferrer" target="_blank">Github</Button>
@@ -143,7 +143,7 @@ class Projects extends Component {
                     {/* Random Password Generator */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                        <CardTitle style={{color: '#fff', height: '174px', background: 'url(https://user-images.githubusercontent.com/53281244/75977263-ffa97100-5ea9-11ea-9025-dd136e7a9a98.png) center / cover'}} ></CardTitle>
-                       <CardText style={{padding: '2px', textAlign: 'center'}}>
+                       <CardText style={{paddingTop: '0px', paddingBottom: '16px', textAlign: 'center'}}>
                        <h6>Random Password Generator</h6>User can generate a random password so that their sensitive information can stay safe.
                        </CardText>
                        <CardActions border>
