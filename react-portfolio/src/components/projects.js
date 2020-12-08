@@ -31,44 +31,8 @@ class Projects extends Component {
                        <IconButton name="share" />
                    </CardMenu>
 
-               </Card>
-
-                {/* Project 2 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #2</CardTitle>
-                <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </CardText>
-                <CardActions border>
-                    <Button colored>Github</Button >
-                    <Button colored>CodePen</Button>
-                    <Button colored>LiveDemo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
-
-            </Card>
-
-             {/* Project 3 */}
-             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #3</CardTitle>
-             <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             </CardText>
-             <CardActions border>
-                 <Button colored>Github</Button>
-                 <Button colored>CodePen</Button>
-                 <Button colored>LiveDemo</Button>
-             </CardActions>
-             <CardMenu style={{color: '#fff'}}>
-                 <IconButton name="share" />
-             </CardMenu>
-
-         </Card>
-
-         
-                </div>
+                 </Card> 
+                 </div>
                 
             )
 
@@ -113,24 +77,7 @@ class Projects extends Component {
                     </CardMenu>
     
                 </Card>
-    
-                 {/* Project 3 */}
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #3</CardTitle>
-                 <CardText>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 </CardText>
-                 <CardActions border>
-                     <Button colored>Github</Button>
-                     <Button colored>CodePen</Button>
-                     <Button colored>LiveDemo</Button>
-                 </CardActions>
-                 <CardMenu style={{color: '#fff'}}>
-                     <IconButton name="share" />
-                 </CardMenu>
-    
-             </Card>
-             </div>
+                    </div>
 
 /* End of Nodejs projecst section */
 
@@ -180,42 +127,6 @@ class Projects extends Component {
                        </CardMenu>
     
                    </Card>
-    
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #2</CardTitle>
-                    <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button >
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-    
-                </Card>
-    
-                 {/* Project 3 */}
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp) center / cover'}} >React Project #3</CardTitle>
-                 <CardText>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                 </CardText>
-                 <CardActions border>
-                     <Button colored>Github</Button>
-                     <Button colored>CodePen</Button>
-                     <Button colored>LiveDemo</Button>
-                 </CardActions>
-                 <CardMenu style={{color: '#fff'}}>
-                     <IconButton name="share" />
-                 </CardMenu>
-    
-             </Card>
-    
-             
                     </div>
                     
                 )
