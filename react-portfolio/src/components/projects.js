@@ -48,7 +48,7 @@ class Projects extends Component {
                     {/* Note Taker */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                        <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://user-images.githubusercontent.com/53281244/79055223-5462a900-7c19-11ea-8c86-c6e0d17c7646.png) center / cover'}} >Note Taker</CardTitle>
-                       <CardText>
+                       <CardText style={{paddingTop: '40px'}}>
                        <h6 style={{marginTop: '0px', marginBottom: '0px', paddingTop: '0px', paddingBottom: '0px', fontWeight: 'bolder'}}>Note Taker</h6><p style={{marginBottom: '0'}}>A simple note taking app that user can add, save and delete notes using Nodejs and SQL.</p>
                        </CardText>
                        <CardActions border>
