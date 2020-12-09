@@ -113,7 +113,7 @@ class Projects extends Component {
                 {/* MongoDB projects section */}
                     {/* Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                       <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/75485119-1fa3d680-5978-11ea-8044-8370c7184f2f.png) center / cover'}} ></CardTitle>
+                       <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://user-images.githubusercontent.com/53281244/75485119-1fa3d680-5978-11ea-8044-8370c7184f2f.png) center / cover'}} ></CardTitle>
                        <CardText>
                        <h6>Workout-Tracker</h6><p>A Workout Tracker app that helps user reach their fitness goals quicker when they track their workout progress.</p>
                        </CardText>
@@ -142,9 +142,9 @@ class Projects extends Component {
 
                     {/* Random Password Generator */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                       <CardTitle style={{color: '#fff', height: '174px', background: 'url(https://user-images.githubusercontent.com/53281244/75977263-ffa97100-5ea9-11ea-9025-dd136e7a9a98.png) center / cover'}} ></CardTitle>
-                       <CardText style={{paddingTop: '0px', paddingBottom: '16px', textAlign: 'center'}}>
-                       <h6>Random Password Generator</h6>User can generate a random password so that their sensitive information can stay safe.
+                       <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/75977263-ffa97100-5ea9-11ea-9025-dd136e7a9a98.png) center / cover'}} ></CardTitle>
+                       <CardText style={{paddingTop: '0px', paddingBottom: '5px', textAlign: 'center'}}>
+                       <h6 style={{ textAlign: 'left', marginTop: '60px'}}>Random Password Generator</h6>User can generate a random password so that their sensitive information can stay safe.
                        </CardText>
                        <CardActions border>
                            <Button colored href='https://github.com/Mstarr85/randomPasswordGenerator' rel="noopener noreferrer" target="_blank">Github</Button>
@@ -159,8 +159,8 @@ class Projects extends Component {
     
                     {/* Quiz */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79232092-12ae4a00-7e35-11ea-8a46-b5fc14aebf50.png) center / cover'}} ></CardTitle>
-                    <CardText>
+                    <CardTitle style={{color: '#fff', height: '213px', background: 'url(https://user-images.githubusercontent.com/53281244/79232092-12ae4a00-7e35-11ea-8a46-b5fc14aebf50.png) center / cover'}} ></CardTitle>
+                    <CardText style={{ paddingTop: '0px', paddingBottom: '5px'}}>
                     <h6>Quiz</h6>This was created to showcase knowledge of building a timed multiple choice quiz using Javascript.
                     </CardText>
                     <CardActions border>
@@ -175,9 +175,9 @@ class Projects extends Component {
                 </Card>
     
                  {/* Burger */}
-                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/53281244/79225722-28b70d00-7e2b-11ea-8a7d-795201b9fe82.png) center / cover'}} ></CardTitle>
-                 <CardText>
+                 <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+                 <CardTitle style={{ color: '#fff', height: '230px', background: 'url(https://user-images.githubusercontent.com/53281244/79225722-28b70d00-7e2b-11ea-8a7d-795201b9fe82.png) center / cover'}} ></CardTitle>
+                 <CardText style={{ paddingTop: '0', paddingBottom: '5px'}}>
                  <h6 style={{ fontWeight: 'bold'}}>Burger</h6>A restaurant app that lets user input the names of burgers they'd like to eat.
                  </CardText>
                  <CardActions border>
