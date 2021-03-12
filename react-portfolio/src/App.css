@@ -46,6 +46,9 @@
   color: white;
   padding: 2em;
 
+  
+  
+
 }
 
 /* contact page css */
@@ -115,7 +118,6 @@ border-radius: 50%;
 }
 
 .banner-text h1 {
-  font-size: 66px;
   font-weight: bold;
   color: white;
   }

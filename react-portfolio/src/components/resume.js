@@ -17,38 +17,43 @@ class Resume extends Component {
                             <img
                             src={Avatar}
                             alt="avatar"
-                            style={{height: '250px', marginTop: '5em', borderRadius: '50%'}}/>
+                            style={{height: '250px', marginTop: '5em', borderRadius: '50%',marginRight: '70%'}}/>
                         </div>
+                        
+                      
+                        <h3 style={{paddingTop: '2em'}}>Matthew Starr</h3>
+                        <h4>Full Stack Web Developer</h4>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
+                        
 
-                        <h2 style={{paddingTop: '2em'}}>Matthew Starr</h2>
-                        <h4>Full-Stack Web Developer</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>Personable and energetic Developer with a background in sales and customer service. Able to successfully collaborate and work alone or on a diverse team while solving problems in high-stress environments. A very communicative and driven individual who enjoys connecting with co-workers and clients. Passionate about building applications that assist everyday people to make their lives easier. Looking to bring my attention to detail and technical skills to a company to grow with and add value to their current project.</p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <h5>Location</h5>
-                        <p>Charlotte, NC </p>
-                        <h5>Email</h5>
-                        <p>buylowsellhigh@me.com</p>
-                        <h5>Web</h5>
-                        <p>www.linkedin.com/in/matthew-starr-a9b28b126/</p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <p style={{fontSize: '1.2em'}}>Developer with a background in sales and customer service.</p>
 
+
+                        <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
+                        <h4>Location</h4>
+                        <p style={{fontSize: '1.2em'}}>Charlotte, NC </p>
+                        <h4>Email</h4>
+                        <p style={{fontSize: '1.2em'}}>matthewcstarr@yahoo.com</p>
+                        <h4>Web</h4>
+                        <p style={{fontSize: '1.2em'}}>linkedin.com/in/matthewcstarr</p>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '80%'}}/>
+                        
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <h2>Education</h2>
+                        <h3>Education</h3>
 
                         <Education
                             startYear={2019}
                             endYear={2020}
                             schoolName="University of North Carolina, Charlotte"
-                            schoolDescription="Full-Stack Web Development Coding Boot Camp offering front-end and back-end technology knowledge through a dynamic full-stack coding program curriculum, including HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more."
+                            schoolDescription="Full Stack Web Development Coding Boot Camp offering frontend and backend technology knowledge through a dynamic full stack coding program curriculum, including HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more."
                             />
 
 
-                            <h2>Experience</h2>
+                            <h3>Experience</h3>
 
                             <Experience
-                            startYear={2020}
+                            startYear={2019}
                             endYear={"Present"}
                             jobName="Freelance Web Developer"
                             jobDescription="Design, implement and deploy practical user applications upon customer request. Application analysis and design research on how to integrate features that meet the user requirements.
@@ -57,7 +62,7 @@ class Resume extends Component {
                             Ensure that solutions are in line with the user's expectations using appropriate technologies."/>
 
 
-                            <h2>Technical Skills</h2>
+                            <h3>Technical Skills</h3>
 
                             <Skills/>
 
