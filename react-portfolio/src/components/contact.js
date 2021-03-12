@@ -25,8 +25,8 @@ class Contact extends Component {
                        <p style={{ width: '75', margin: 'auto', paddingTop: '1em'}}> </p>
 
                     <div>
-                    <h3 style={{fontFamily: 'Anton'}}>I'd love to hear from you!</h3>
-                    <p style={{width:'75%', margin:'auto', fontSize: '20px', fontFamily: 'roboto'}}>I'm happy to answer any questions you may have or provide you with an estimate for your current project. Just send me a message in the contact form or click on the contact links provided to the right of the page. </p> 
+                    <h4 style={{fontFamily: 'Anton'}}>I'd love to hear from you!</h4>
+                    <p style={{width:'75%', margin:'auto', fontSize: '1.2em', fontFamily: 'roboto'}}>I'm happy to answer any questions you may have or provide you with an estimate for your current project. Just send me a message in the contact form or click on the contact links provided to the right of the page. </p> 
                     <br/>
                     <h4 style={{fontFamily: 'Anton'}}>Hope to hear from you soon! </h4>   
                     </div>

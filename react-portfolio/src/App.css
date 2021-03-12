@@ -185,9 +185,8 @@ border-radius: 50%;
   display: block;
   color:rgb(255,255,255);
   letter-spacing: 0.1rem;
-  font-family: 'roboto', 'san-serif';
-  font-weight: bold;
-  font-size: 1.6rem;
+  font-family: 'Anton', 'san-serif';
+  font-size: 1.4rem;
   margin: 8px;
  
 }
